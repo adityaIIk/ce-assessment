@@ -86,7 +86,7 @@ Response: Example
     }
 }
 
-Postman Testing Screenshots: ![alt text](image.png)
+Postman Testing Screenshots: ![Team Info API Response](image1.png)
 
 ---
 
@@ -121,7 +121,7 @@ Response: Example
 
 { "team_id": "dbtid:...", "name": "Acme Corp" }
 
-Postman Testing Screenshots: (Add screenshots)
+Postman Testing Screenshots: ![Plan Info API Response](image2.png)
 
 ---
 
@@ -194,7 +194,7 @@ Response: Example
     "has_more": false
 }
 
-![alt text](image-1.png)
+Postman Testing Screenshots: ![Members List API Response](image.png)
 
 ---
 
@@ -263,8 +263,6 @@ Response: Example
 }
 
 Note: event type names vary; filter for login/sign-in related events (search for "sign in", "login", or check event type ids).
-
-Postman Testing Screenshots: ![alt text](image-2.png)
 
 ---
 
