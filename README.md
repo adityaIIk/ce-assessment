@@ -34,12 +34,3 @@ Notes:
 - If `DROPBOX_ACCESS_TOKEN` is set, the program uses it and skips the interactive browser auth.
 - To run interactive OAuth, set `DROPBOX_CLIENT_ID`, `DROPBOX_CLIENT_SECRET`, and `DROPBOX_REDIRECT_URI` and run the program; it will open the browser to authorize and capture the authorization code.
 
-Postman testing:
-- Use `Auth URL`: https://www.dropbox.com/oauth2/authorize
-- Use `Token URL`: https://api.dropbox.com/oauth2/token
-- Scopes to request (example): `team_info.read`, `members.read`, `team_logs.read` (confirm names in App Console).
-- After obtaining an access token in Postman, call the endpoints from `TEMPLATE.md` using POST and `Authorization: Bearer <token>` header.
-
-To push to GitHub: initialize repo, add files, commit and push to a new remote repository (see GitHub UI for instructions).
-
-End.
