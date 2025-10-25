@@ -86,7 +86,7 @@ Response: Example
     }
 }
 
-Postman Testing Screenshots: ![Team Info API Response](image1.png)
+Postman Testing Screenshots: ![Team Info API Response](image-1.png)
 
 ---
 
@@ -121,7 +121,7 @@ Response: Example
 
 { "team_id": "dbtid:...", "name": "Acme Corp" }
 
-Postman Testing Screenshots: ![Plan Info API Response](image2.png)
+Postman Testing Screenshots: ![Plan Info API Response](image-2.png)
 
 ---
 
